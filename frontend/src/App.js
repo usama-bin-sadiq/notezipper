@@ -1,17 +1,18 @@
 import './App.css';
-<<<<<<< Updated upstream
-
-function App() {
-  const pak = "PAKISTAN";
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h2>Hello World {pak}</h2>
-      </header>
-=======
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
+
+//function App() {
+ // const pak = "PAKISTAN";
+ // return (
+  //  <div className="App">
+    //  <header className="App-header">
+      //  <h2>Hello World {pak}</h2>
+      //</header>
+//</div>
+ // );
+//}
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
 
       </main>
       <Footer />
->>>>>>> Stashed changes
+
     </div>
   );
 }
