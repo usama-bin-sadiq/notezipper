@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import { LandingPage } from './components/screens/LandingPage/LandingPage';
 
 
 //function App() {
@@ -17,8 +18,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main style ={{minHeight: "93vh"}}>
-
+      <main>
+        <LandingPage />
       </main>
       <Footer />
 
