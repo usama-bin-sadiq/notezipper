@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import { LandingPage } from './components/screens/LandingPage/LandingPage';
-
+import { BrowserRouter, Route } from 'react-router-dom';
+import MyNotes from './components/screens/MyNotes/MyNotes';
 
 //function App() {
  // const pak = "PAKISTAN";
@@ -16,14 +17,14 @@ import { LandingPage } from './components/screens/LandingPage/LandingPage';
 //}
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
       <main>
-        <LandingPage />
+        <Route path="/" component={LandingPage} exact/>
+        <Route path="/mynotes" component={()=> <MyNotes />} />
       </main>
       <Footer />
-
-    </div>
+    </BrowserRouter>
   );
 }
 
