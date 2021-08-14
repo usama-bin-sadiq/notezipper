@@ -5,8 +5,8 @@ import {
   NavDropdown,
   Form,
   FormControl,
-//   Button,
-  Container
+  //   Button,
+  Container,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 const Header = () => {
@@ -35,7 +35,7 @@ const Header = () => {
               navbarScroll
             >
               <Nav.Link href="/mynotes">
-                <Link to='/mynotes'>My Notes</Link>
+                <Link to="/mynotes">My Notes</Link>
               </Nav.Link>
               <NavDropdown title="Usama Bin Sadiq" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">My Profile</NavDropdown.Item>
